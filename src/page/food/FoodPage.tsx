@@ -32,7 +32,9 @@ const FoodPage = () => {
 
   return (
     <div className="w-[300px] mx-auto">
-      <h2 className="text-xl mb-5 text-center">Recommended eateries</h2>
+      <h2 className="text-xl my-5 text-center font-medium text-gray-700">
+        Recommended eateries
+      </h2>
       <form
         onSubmit={handleSubmit}
         className="flex items-center justify-center gap-2"

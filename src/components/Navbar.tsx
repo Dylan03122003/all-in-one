@@ -14,7 +14,7 @@ const Navbar = () => {
         </ul>
       </div>
       {/* Mobile */}
-      <div className="flex sm:hidden items-center justify-evenly absolute bottom-0 w-full border-solid border-t-[1px] border-gray-400 p-2">
+      <div className=" flex sm:hidden items-center justify-evenly fixed bottom-0 w-full border-solid border-t-[1px] border-gray-400 p-2 z-10 bg-white">
         <Link to="/" className="flex items-center justify-center flex-col">
           <GoHomeFill className="w-7 h-7 text-blue-500" />
           <p className="text-sm text-blue-500">Home</p>
